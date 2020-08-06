@@ -20,7 +20,7 @@ Para realizar este teste você **PODE**:
 
 - Criar os testes na pasta [src/tests](./tests) a partir do clone deste repositorio usando o [cypress](https://www.cypress.io/).
 
-- Escrever os teste em um repositório separado do código caso prefira **LEMBRE-SE DE DOCUMENTAR**.
+- Escrever os teste em um repositório separado do código usando sua stack prefirida (usar cypress é um *desejavel*) **LEMBRE-SE DE DOCUMENTAR**.
 
 - Escrever seus próprios cenários como preferir.
 
