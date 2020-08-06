@@ -70,4 +70,4 @@ npm run test:e2e
 
 ## Obrigado por realizar os teste
 
-Caso sinta-se confortavel [avaliações são sempre este teste por aqui](https://forms.gle/qKEf7thRgnjvG2nXA)
+Caso sinta-se confortavel [avaliações são sempre bem-vindas este teste por aqui](https://forms.gle/qKEf7thRgnjvG2nXA)
