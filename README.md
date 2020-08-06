@@ -8,10 +8,11 @@ git clone git@github.com:dasa-health/test-qa.git
 
 Crie um repositorio no seu github e adicione as seguintes pessoas como reviewers:
 
-- @guilhermedgl
-- @codermarcos
-- @onlurking
-- @letfr
+- [@guilhermedgl](https://github.com/guilhermedgl)
+- [@codermarcos](https://github.com/codermarcos)
+- [@onlurking](https://github.com/onlurking)
+- [@letfr](https://github.com/letfr)
+
 
 Para realizar este teste você **PODE**:
 
