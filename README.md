@@ -1,40 +1,31 @@
 # Teste QA Dasa
 
-Inicie o teste clonando este repositorio:
+Inicie o teste clonando este repositório:
 
 ```bash
-git clone git@github.com:dasa-health/test-qa.git
+git clone https://github.com/dasa-health/test-qa.git
 ```
 
-Crie um repositorio no seu github e adicione as seguintes pessoas como reviewers:
-
-- [@guilhermedgl](https://github.com/guilhermedgl)
-- [@codermarcos](https://github.com/codermarcos)
-- [@onlurking](https://github.com/onlurking)
-- [@letfr](https://github.com/letfr)
+- Crie um repositório no seu github para subir o seu projeto e nos mande o link do repositório:
 
 
 Para realizar este teste você **PODE**:
 
-- Alterar o código caso veja necessidade (por ex: Para criar seletores melhores etc...).
+- Alterar o código caso veja necessidade (por ex: Para criar seletores melhores, incluir id para facilitar na sua automação etc...). (Nos mande o projet junto com o seu repositorio caso altere alguma informação)
 
-- Criar os testes na pasta [src/tests](./tests) a partir do clone deste repositorio usando o [cypress](https://www.cypress.io/).
+DOCUMENTAR**.
 
-- Escrever os teste em um repositório separado do código usando sua stack prefirida (usar cypress é um *desejavel*) **LEMBRE-SE DE DOCUMENTAR**.
+- Escrever seus próprios cenários como preferir. Lembrando que tem que atender todos os cénarios para respectiva funcionalidade
 
-- Escrever seus próprios cenários como preferir.
-
-- Apresentar **idéias** e apontar **bug** no projeto como preferir.
+- Apresentar **idéias** e apontar **Bug** no projeto como preferir. (Pode criar um documento e descrever os bugs encontrados. So criar um pasta na raiz do seu projeto "bug", e lá colocar um arquivo '.pdf' detalhando os bugs encontrados)
 
 **Não** pode:
 
-- Deixar de criar os testes para os cenários já existentes em [tests/e2e/scenarios](./tests/e2e/scenarios) de 0 a 4.
-
-- Esquecer de documentar se criar os testes separados do código.
+- Esquecer de documentar toda a estrutra e arquitetura. Lembre que nos vamos seguir o passo a passo :)
 
 **Desejável**:
 
-- Que aplique as [boas praticas do cypress](https://docs.cypress.io/guides/references/best-practices.html)
+- Que aplique as [boas praticas da Tecnologia utilizada]
 
 ## Setup do projeto
 
@@ -42,7 +33,7 @@ Se quiser enteder melhor o projeto pode dar uma olhada no [Vue.js](https://cli.v
 
 ### Usando Docker
 
-Você pode iniciar a aplicação usando o docker:
+Você pode iniciar a aplicação usando o docker. Para isso você terá que ter instalado o docker na sua maquina:
 
 ```bash
 docker build -t test-qa . && docker run test-qa -p 8080
@@ -60,12 +51,6 @@ npm install
 
 ```bash
 npm run serve
-```
-
-#### Para roda os testes e2e usando [cypress](https://www.cypress.io/)
-
-```bash
-npm run test:e2e
 ```
 
 ## Obrigado por realizar os teste
