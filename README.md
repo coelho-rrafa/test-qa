@@ -36,7 +36,8 @@ Se quiser enteder melhor o projeto pode dar uma olhada no [Vue.js](https://cli.v
 Você pode iniciar a aplicação usando o docker. Para isso você terá que ter instalado o docker na sua maquina:
 
 ```bash
-docker build -t test-qa . && docker run test-qa -p 8080
+- docker build -t test-qa . && docker run -i -t test-qa:latest /bin/bash
+- rodar o comando no bash 'npm run serve'
 ```
 
 Se tudo ocorrer como esperado pode conferir nesta porta [http://localhost:8080/](http://localhost:8080/)
