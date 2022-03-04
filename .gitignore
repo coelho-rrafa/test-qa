@@ -1,6 +1,10 @@
 .DS_Store
 node_modules
 /dist
+testes-automatizados/cypress/screenshots/
+testes-automatizados/cypress/videos/
+testes-automatizados/node_modules
+node_modules/
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
